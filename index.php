@@ -25,7 +25,6 @@
             <a href="#home">home</a>
             <a href="#about">about</a>
             <a href="#menu">menu</a>
-            <a href="#order">order</a>
         </nav>
 
         <div id="menu-btn" class="fas fa-bars"></div>
@@ -112,6 +111,7 @@
                 <div class="content">
                     <h3 class="title">ice cream strawberry</h3>
                     <div class="price">Rp. 20.000 <span>23.000</span></div>
+                    <a href="order.php">Order</a>
                 </div>
             </div>
 
@@ -122,6 +122,7 @@
                 <div class="content">
                     <h3 class="title"> ice cream vanilla</h3>
                     <div class="price">Rp. 18.000 <span>20.000</span></div>
+                    <a href="order.php">Order</a>
                 </div>
             </div>
 
@@ -132,6 +133,7 @@
                 <div class="content">
                     <h3 class="title">ice cream blueberry</h3>
                     <div class="price">Rp. 23.000<span>25.000</span></div>
+                    <a href="order.php">Order</a>
                 </div>
             </div>
 
@@ -142,6 +144,7 @@
                 <div class="content">
                     <h3 class="title"> ice cream lemon</h3>
                     <div class="price">Rp. 15.000<span>15.500</span></div>
+                    <a href="order.php">Order</a>
                 </div>
             </div>
 
@@ -152,6 +155,7 @@
                 <div class="content">
                     <h3 class="title">ice cream plum</h3>
                     <div class="price">Rp. 18.000<span>19.000</span></div>
+                    <a href="order.php">Order</a>
                 </div>
             </div>
 
@@ -162,6 +166,7 @@
                 <div class="content">
                     <h3 class="title">ice cream raspberry</h3>
                     <div class="price">Rp. 26.000 <span>19.000</span></div>
+                    <a href="order.php">Order</a>
                 </div>
             </div>
 
@@ -170,65 +175,6 @@
     </section>
 
     <!-- menu -->
-
-    
-    <!-- order -->
-
-    <section class="order" id="order">
-        <h1 class="heading">order now!</h1>
-
-        <form action="">
-
-            <div class="box-container">
-
-                <div class="box">
-                    <div class="inputBox">
-                        <span>Nama Customer</span>
-                        <input type="text" placeholder="Masukkan Nama Anda">
-                    </div>
-
-                    <div class="inputBox">
-                        <span>Nama ice cream</span>
-                        <input type="text" placeholder="Menu Yang Anda Inginkan">
-                    </div>
-
-                    <div class="inputBox">
-                        <span>Detail Order</span>
-                        <input type="text" placeholder="toping/tambahan">
-                    </div>
-
-                    <div class="inputBox">
-                        <span>Alamat</span>
-                        <textarea name="" placeholder="Masukkan Alamat Anda" cols="30" rows="10"></textarea>
-                    </div>
-
-                </div>
-
-                <div class="box">
-                    <div class="inputBox">
-                        <span>Nomor Tlp</span>
-                        <input type="number" placeholder="Masukkan Nomor Telpon">
-                    </div>
-
-                    <div class="inputBox">
-                        <span>Jumlah Order</span>
-                        <input type="number" placeholder="Berapa Banyak Pesanan">
-                    </div>
-
-                    <div class="inputBox">
-                        <span>Tanggal Pesanan</span>
-                        <input type="Tanggal Pesanan">
-                    </div>
-
-                </div>
-
-            </div>
-            <a href="https://api.whatsapp.com/send?phone=6285887049405&text=Saya%20mau%20memesan%20ice cream." class="btn">Order Now</a>
-        </form>
-
-    </section>
-
-    <!-- order -->
 
     <!-- footer -->
 
